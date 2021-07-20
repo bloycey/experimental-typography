@@ -1,0 +1,86 @@
+html,
+body {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* End of Reset */
+
+@font-face {
+	font-family: Bandeins Strange;
+	src: url(fonts/bandeins-strange-variable.ttf);
+}
+
+body {
+	font-family: Bandeins Strange;
+	font-size: 60px;
+	background-color: #000;
+	margin: 50vh 40px 40px 40px;
+}
+
+h1 {
+	position: fixed;
+	top: 80px;
+	left: 80px;
+	color: #ffffff;
+	z-index: 1;
+	transition: all;
+	font-variation-settings: "wght" 100, "wdth" 100;
+}
+
+nav {
+	position: fixed;
+	top: 80px;
+	right: 80px;
+	z-index: 1;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0 0 0 30px;
+	font-variation-settings: "wght" 100, "wdth" 100;
+	transition: font-variation-settings 0.3s;
+}
+
+a:hover {
+	font-variation-settings: "wght" 900, "wdth" 200;
+}
+
+img {
+	width: 100%;
+	height: calc(100vh - 80px);
+	object-fit: cover;
+	position: sticky;
+	top: 40px;
+}

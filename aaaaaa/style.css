@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #f3c043;
+	background-color: #e84e3c;
+	font-size: 24px;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

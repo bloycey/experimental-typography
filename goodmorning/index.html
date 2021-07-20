@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"
+			integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ=="
+			crossorigin="anonymous"
+		></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="actions">
+			<label for="tileSize">Block Size</label>
+			<input type="range" id="tileSize" min="10" max="100"step="5" value="10">
+			<label for="distortionX">Distortion X</label>
+			<input type="range" id="distortionX" min="0.5" max="25"step="0.5" value="10">
+			<label for="distortionY">DistortionY</label>
+			<input type="range" id="distortionY" min="0.5" max="25"step="0.5" value="5">
+			<label for="waveSlider">Wave Speed</label>
+			<input type="range" id="waveSlider" min="0" class="wave" max="1" step="0.0005" value="0.05">
+			<input type="text" class="line1" value="Good" >
+			<input type="text" class="line2" value="Morning" >
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
