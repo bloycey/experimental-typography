@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	background-color: #ebe2d8;
+	font-size: 24px;
+}
+
+/* main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} */
+
+canvas {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.actions {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+
+	display: flex;
+	align-items: center;
+}
+
+.actions input {
+	width: 100px;
+	margin-left: 15px;
+}
+
+.actions {
+	color: #333333;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 120px;
+}
