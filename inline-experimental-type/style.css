@@ -17,11 +17,14 @@ main {
 }
 
 h1 {
-	font-size: 120px;
+	font-size: 200px;
+	font-family: 'Anton';
+	display: inline-block;
 }
 
 h2 {
 	font-size: 80px;
+	display: inline-block;
 }
 
 .visually-hidden {
